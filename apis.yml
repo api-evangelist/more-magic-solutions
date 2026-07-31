@@ -1,8 +1,30 @@
 aid: more-magic-solutions
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/more-magic-solutions.png
 name: More Magic Solutions
-description: More Magic Solutions is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  More Magic Solutions (MoreMagic Solutions) was a mobile commerce and mobile
+  money company that enabled mobile operators, financial institutions, content
+  providers, and distributors to let consumers purchase goods and services on
+  demand via a mobile phone, POS, or the web, with deployments across more than
+  30 countries. Backed by Battery Ventures, Cipio Partners, DN Capital, Endeavour
+  Vision, and others, the company was acquired by Oberthur Technologies in
+  February 2012 and folded into Oberthur's mobile financial services offering. It
+  no longer operates as an independent entity: the moremagic.com domain is now
+  parked/for-sale and the company publishes no active developer portal, API
+  reference, or API artifacts. This profile is retained in the API Evangelist
+  network as a historical VC-portfolio lead; the enrichment pass found no live
+  API surface to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/more-magic-solutions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,28 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Oberthur Technologies
+x-acquired-date: '2012-02-28'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mobile Payments
+- Mobile Money
+- Mobile Commerce
+- Fintech
+- Telecom
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
